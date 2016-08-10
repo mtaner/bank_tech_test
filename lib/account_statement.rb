@@ -1,6 +1,6 @@
 class AccountStatement
 
-	def printer(statement)
+	def print(statement)
 		puts "date" + "%15s" % "||" + "%14s" % "credit(£)" + "%6s" % "||" + "%14s" % "debit(£)" + "%6s" % "||" + "%14s" % "balance(£)"
 		puts "-------------------------------------------------------------------------"
 
