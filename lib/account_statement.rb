@@ -6,5 +6,7 @@ class AccountStatement
 		statement.reverse.each do |hash|
 				puts "#{hash[:date]}		|| 	#{hash[:credit] || ""} 	|| 	#{hash[:debit] || ""} 	|| 	#{hash[:balance]}"
 		end
+
 	end
+
 end
